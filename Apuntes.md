@@ -25,7 +25,7 @@ i18n.gettext('this is {0}, right {0}?', 'John');
 // Este es John, Verdad John?
 ~~~
 
-#### <I18nProvider />
+#### '< I18nProvider />
 
 Sirve para internacionalizar: adaptar a diferentes formas de hablar o diferentes monedas segun el pais donde se encuentra
 
