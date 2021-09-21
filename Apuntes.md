@@ -38,7 +38,7 @@ i18n
 ** Ejercicio **
 Traer una imagen de un sitio externo y mostrarla con el componente image
 
-### Martes 20 de Septiembre
+### Martes 21 de Septiembre
 
 Accesibilidad
 
