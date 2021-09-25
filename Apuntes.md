@@ -25,7 +25,7 @@ i18n.gettext('this is {0}, right {0}?', 'John');
 // Este es John, Verdad John?
 ~~~
 
-#### '< I18nProvider />
+#### < I18nProvider />
 
 Sirve para internacionalizar: adaptar a diferentes formas de hablar o diferentes monedas segun el pais donde se encuentra
 
@@ -37,7 +37,7 @@ Como comunicarnos con el back
 PropTypes
 i18n
 
-** Ejercicio **
+**Ejercicio**
 Traer una imagen de un sitio externo y mostrarla con el componente image
 
 ### Martes 21 de Septiembre
@@ -67,3 +67,14 @@ address
 
 time
 
+**Label**
+
+Situar los label correctamente
+
+Antes para: 
+
+- text
+- textarea
+- select
+- password
+- file

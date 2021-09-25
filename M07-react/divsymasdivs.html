@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div role="header">
+        <h1>Titulo</h1>
+    </div>
+    <div role="navigation">
+        <div role="menubar">
+            <span role="menuitem" tabindex="1">
+                <a href="#">Link1</a>
+            </span>
+            <span role="menuitem" tabindex="2">
+                <a href="#">Link2</a>
+            </span>
+            <span role="menuitem" tabindex="3">
+                <a href="#">Link3</a>
+            </span>
+        </div>
+    </div>
+    <div role="main">
+        <section>
+            <form action="post">
+                <fieldset>
+                    <label htmlFor="fname">Nombre</label>
+                    <input type="text" id="fname" placeholder="Nombre"/>
+                    <label htmlFor="lname">Apellido</label>
+                    <input type="text" id="lname" placeholder="Apellido"/>
+                    <label htmlFor="email">Correo</label>
+                    <input type="email" id="email" placeholder="Correo"/>
+                    <label htmlFor="dni">DNI</label>
+                    <input type="number" id="dni" placeholder="Numero de identificación"/>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <div role="article">
+                <h2>Silla de escritorio</h2>
+                <div role="figure">
+                    <img src="./img/sillaEscritorio.png" alt="Silla de Escritorio con ruedas">
+                    <figcaption>Silla de escritorio blanca</figcaption>
+                </div>
+                <p>Descripcion</p>
+            </div>
+            <div role="article">
+                <h2>Silla Gamer</h2>
+                <div role="figure">
+                    <img src="./img/sillaGamer.png" alt="Silla Gamer turquesa">
+                    <figcaption>Silla Gamer Turquesa</figcaption>
+                </div>
+                <p>Descripcion</p>
+            </div>
+            <div role="article">
+                <h2>Silla de escritorio</h2>
+                <div role="figure">
+                    <img src="./img/macbook.png" alt="MacBook">
+                    <figcaption>MacBook Pro 16"</figcaption>
+                </div>
+                <p>Descripcion</p>
+            </div>
+        </section>
+    </div>
+    <div role="contentinfo"></div>
+    
+</body>
+</html>
